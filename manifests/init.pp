@@ -4,7 +4,7 @@
 #
 # Author: Wayne Ingram
 #
-class rpm_repos {
+class localrepo {
   case $::operatingsystem {
     'RedHat', 'CentOS': {
       yumrepo {
