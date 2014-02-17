@@ -14,9 +14,6 @@ class rpm_repos {
           name => 'ingram',
           gpgcheck => 0;
       }
-      default: {
-        fail("Unsupport OS $::operatingsystem");
-      }
     }
   }
 }
